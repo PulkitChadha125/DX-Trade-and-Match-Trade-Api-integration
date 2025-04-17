@@ -37,9 +37,9 @@ async def test_broker(broker_type: str, username: str, password: str):
 async def main():
     # Test DXTrade (The Funded Trader)
     await test_broker(
-        "dxtrade",
-        "FTP_C97086",
-        "b7F-San67"
+        "",
+        "",
+        ""
     )
     
     # Test MatchTrade (Funded Trading Plus)
